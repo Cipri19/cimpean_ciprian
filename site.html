@@ -1,99 +1,82 @@
+<!DOCTYPE html>
 <html>
 <head>
-<title> Prezentare </title>
-<script src="javascript.js"defer></script>
+    <title> Exemplu Pagină Web </title>
+<link rel="stylesheet" href="styles.css">
+<script src="C:\Users\cimpe\OneDrive\Desktop\Informatica Aplicata\script.js" ></script>
 <style>
-h1 {
-font-size: 50px; 
-color:red; 
-text-align: center; 
-background-color: white;}
-h3{
-font-size: 25px; 
-color:yellow; 
-text-align: center; 
-background-color: white;}
-h6{
-font-size:15px; 
-color:blue;}
-table th, td, a {
-border:2px dotted red;
-color: blue;
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Agbalumo&display=swap" rel="stylesheet">
-img {
-witdh: 600px; 
-height: 300px; 
-margin-left: 400px;
-border: 20px solid #ccc;
-}
-.red-text{
-color:red;
-}
-#rounded-img {border-radius: 220px;
+.img {
+border: 4px solid #333;
+border4-radius: 10px;
+margin: 5px; }
+h2{
+font-family: 'Agbalumo', sans-serif;
+background-color: green; }
+#rounded-img{
+border-radius: 20px;
+	    }
+body {
+  background-color:green;
+  opacity: 0.9;
+     }
+
+tabel, tr, td{
+	border:3px solid black;
+	color : black;
+	}
+li{
+
+color: purple;
 }
 </style>
+
 </head>
-<body id="body">
-<button id="button"> Viata noua</button>
-<br>
-<body bgcolor=lightgreen>
-<style>
-</style>
-<h1 id="Nume"> Nume: Cimpean </h1>
-<h3 id="Prenume">Prenume: Ciprian </h3>
-<h6 class="blue-text"> e-mail: cimpeanciprian68@gmail.com </h6>
-<p id="anNastere"> 2004 </p>
-<img id="img" 
-width= "250px"
-height= "250px"
-margin-left: 400px;
-src="C:\Users\Cimpean.Ma.Marius\Downloads\garfield1.jpg">
-<p id="Asteptari"> Asteptari legate de educatie:</p>
-<p>-sa termin facultatea</p>
-<p> sa ajung sa lucrez in ce imi doresc </p>
-Discipline:<a href="https://etti.utcluj.ro/planuri-de-invatamant.html"> click aici </a> 
-<table>
-<thead>
-<tr>
-<th> Disciplina </th>
-<th> An </th>
-<th> Link </th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>Informatica Aplicata </th>
-<th> 1 </th>
-<th> <a href="https://etti.utcluj.ro/files/Acasa/Site/FiseDisciplina/EaRo/06.pdf"> IA </a> </th>
-<tr>
-<th> CCP </th>
-<th> 1 </th>
-<th> <a href="https://etti.utcluj.ro/files/Acasa/Site/FiseDisciplina/TstRo/05a.pdf"> CCP </a> </th>
-</tr>
-<tr>
-<th>Algerbra Liniara </th>
-<th> 1 </th>
-<th> <a href="https://etti.utcluj.ro/files/Acasa/Site/FiseDisciplina/TstRo/02a.pdf"> AL </a> </th>
-</tr>
-<tr>
-<th> Fizica </th>
-<th> 1 </th>
-<th> <a href="https://etti.utcluj.ro/files/Acasa/Site/FiseDisciplina/TstRo/03.pdf"> FIZICA </a> </th>
-</tr>
-<tr>
-<th> Programarea calculatoarelor si limbaje de programare </th>
-<th>1 </th>
-<th> <a href="https://etti.utcluj.ro/files/Acasa/Site/FiseDisciplina/TstRo/04a.pdf"> PROGRAMARE </a> </th>
-</tr>
-</tbody>
-</table>
-<br>
-Hobby-uri:
+<body>
+<h3> Cimpean Marius Ciprian </h3>
+<h3> e-mail: cimpeanciprian68@gmail.com </h3>
+ 
+ <h2> Componente si caracteristici </h2>
+ <table border="1">
+        <tr>
+            <td>Denumire</td>
+            <td>Producator</td>
+            <td>Parametri</td>
+        </tr>
+        <tr>
+            <td> GeForce RTX 3060</td>
+            <td> NVIDIA</td>
+            <td> 12 GB GDDR6,192-bit, Nucleu CUDA: 3584</td>
+        </tr>
+        <tr>
+            <td>Corsair Vengeance RGB Pro  </td>
+            <td>Corsair</td>
+            <td>DDR4, 32GB, 3600Mhz</td>
+        </tr>
+        <tr>
+            <td>SSD Samsung 980 PRO </td>
+            <td>Samsung</td>
+            <td>2TB, PCIe Gen 4.0 x4</td>
+        </tr>
+    </table>
+  
+            <h2>Structura Retelei</h2>
+<img width="250" height="250" src="C:\Users\cimpe\OneDrive\Desktop\Informatica Aplicata\diagramaretea.png" class="img" >
+            
+        <h2> Caracteristici conexiune retea </h2>
 <ul>
-<li>Fotbal </li>
-<li> Jocuri Video </li>
-<li> Masini </li>
+ <li>  Description  : Realtek PCIe GBE Family Controller </li>
+ <li>  Physical Address : 0C-9D-92-BB-7B-C6 </li>
+ <li> IPv4 Address : 192.168.0.199 (Preferred) </li>
 </ul>
+<button id="myButton">Monitorizare resurse</button>
+<br>
+
+<img width="250" height="250" src="C:\Users\cimpe\OneDrive\Desktop\Informatica Aplicata\resursecpu.png" style="display: inline-block;" class="img" id="rounded-img">
+<img width="250" height="250" src="C:\Users\cimpe\OneDrive\Desktop\Informatica Aplicata\resursedisk.png" style="display: inline-block;" class="img" id="rounded-img">
+<img width="250" height="250" src="C:\Users\cimpe\OneDrive\Desktop\Informatica Aplicata\resursememorie.png" style="display: inline-block;" class="img" id="rounded-img">
+</div>
+<br>
+<br>
+</main>
+</body>
 </html>
